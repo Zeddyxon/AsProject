@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>NotMyFace</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+    
+<body>
+<div class="registrace">
 
-
-    </head>
-    <body>
-
-
-      
-
+<h2>Registration</h2>
+<form action="" method="POST"> <!-- GET/POST -->
+    <br><label for="login">login</label><br>
+    <br><input type="text" id="login" name="login" min="0"><br>
+    <br><label for="mail">mail</label><br>
+    <br><input type="text" id="mail" name="mail" min="0"><br>
+    <br><label for="heslo">Heslo</label><br>
+    <br><input type="text" id="heslo" name="heslo" min="0"><br>
+    <br><input type="submit" value="Submit"><br>
+</form>
+    </div>
       <?php
 
         if ($_POST){
